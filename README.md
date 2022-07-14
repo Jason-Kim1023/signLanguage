@@ -1,4 +1,4 @@
-# testOpenCV
+# SignLanguage
 
 A real-time sign language recognition tool. (Tensorflow/Keras - Machine Learning, OpenCV - Data Collection, Numpy for Comprehensive Mathematical Functions - 2D Matricies)
 
