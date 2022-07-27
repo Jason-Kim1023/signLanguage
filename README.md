@@ -9,8 +9,11 @@ Utilizes Tensorflow and Keras to create an Nueral Network that utilizes real-tim
 ###NOTES###
 
 
--->  A CNN(convolutional neural network) would be more practical and would help this machine learning program run more smoothly.  
+-->  A CNN(convolutional neural network) would be more practical and would help this machine learning program run more smoothly. 
+
 -->  A high number of inputs results in a OOM(out of memory) error, thus the image size had to be reduced to 64x64 pixels.  
+
 -->  Numpy arrays are hard to append to for 2D matricies, so it is easiest to just create a normal 2D array and then type cast it to numpy.
+
 -->  High numbers of inputs for pixel data results in a very demanding nueral network, so CUDA Cores must be utilized to run training models.  
     --> Traning defaults to utilizing the CPU, but you can utilize CUDA Cores from GPU to run your training models. Still demanding for high resolution and image sizes.
