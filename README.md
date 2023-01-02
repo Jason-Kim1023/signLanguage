@@ -2,9 +2,9 @@
 
 A real-time sign language recognition tool. (Tensorflow/Keras - Machine Learning, OpenCV - Data Collection, Numpy for Comprehensive Mathematical Functions - 2D Matricies)
 
-Utilizes Tensorflow and Keras to create an Nueral Network that utilizes real-time image pixel data to predict the hand-sign of an individual.  OpenCV is utilized for data collection and for real-time predictions.  By flattening the 2D Matrix of the image data into a single numpy array, the 3 layered Nueral Network learns from the data and makes accurate predictions of what sign language sign the individual is making.  
+Utilizes Tensorflow and Keras to create an Nueral Network that utilizes real-time image pixel data to predict the hand-sign of an individual.  OpenCV is utilized for data collection and for real-time predictions.  It essentaially reads in each pixel data of the image as an integer value and is then flattens a 2D Matrix of the image data into a single numpy array, the 3 layered Nueral Network is trained on the integer pattters and learns from the data to make accurate predictions of what sign language sign the individual is making.  
 
-### In attached Jupyter Notebook File, attempted to create a convolutional neural network, but it is a lot more demanding and CUDA Cores are too weak to run the program.
+### In attached Jupyter Notebook File, attempted to create a convolutional neural network, but it is a lot more demanding and CUDA Cores are required and personal computer is not strong enough to run the image model for resolutions that are medium - big sizes. 
 
 ###NOTES###
 
