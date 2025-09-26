@@ -1,0 +1,13 @@
+{
+  "total_samples": 1603,
+  "samples_per_class": {
+    "A": 347,
+    "B": 323,
+    "C": 312,
+    "D": 323,
+    "E": 298
+  },
+  "sessions": [],
+  "last_updated": "2025-09-25T22:18:59.139960",
+  "target_samples_per_class": 100
+}
