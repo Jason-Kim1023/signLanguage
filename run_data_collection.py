@@ -31,6 +31,7 @@ def main():
         print("7. 📤 Export Dataset")
         print("8. ❓ Help & Documentation")
         print("9. 🚪 Exit")
+        print("\n💡 Tip: In data collection, use A-Z keys to set labels!")
         
         choice = input("\nSelect an option (1-9): ").strip()
         

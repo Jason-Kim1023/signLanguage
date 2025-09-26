@@ -250,9 +250,9 @@ class EnhancedDataCollector:
             help_text = [
                 "Controls:",
                 "A-Z: Set label",
-                "S: Save sample",
-                "R: Toggle auto-record",
-                "H: Toggle help",
+                "1: Save sample",
+                "2: Toggle auto-record",
+                "3: Toggle help",
                 "ESC: Quit"
             ]
             
@@ -302,13 +302,13 @@ class EnhancedDataCollector:
             
             if key == 27:  # ESC
                 break
-            elif key == ord("s") and feats is not None:
+            elif key == ord("1") and feats is not None:
                 self.dataset_manager.add_sample(feats, self.current_label, self.session_id)
                 print(f"Saved {self.current_label} sample")
-            elif key == ord("r"):
+            elif key == ord("2"):
                 self.record = not self.record
                 print(f"Auto-record: {'ON' if self.record else 'OFF'}")
-            elif key == ord("h"):
+            elif key == ord("3"):
                 self.show_help = not self.show_help
             elif 97 <= key <= 122:  # a-z
                 self.current_label = chr(key).upper()
