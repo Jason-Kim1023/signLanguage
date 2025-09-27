@@ -30,7 +30,7 @@ Write-Host "To activate the environment in the future, run:" -ForegroundColor Cy
 Write-Host "  .\venv\Scripts\Activate.ps1" -ForegroundColor White
 Write-Host ""
 Write-Host "To run the hand detection script:" -ForegroundColor Cyan
-Write-Host "  python detection\hand_detection.py" -ForegroundColor White
+Write-Host "  python main.py" -ForegroundColor White
 Write-Host ""
 Write-Host "To run Jupyter notebook:" -ForegroundColor Cyan
 Write-Host "  jupyter notebook" -ForegroundColor White

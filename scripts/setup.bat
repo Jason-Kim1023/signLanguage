@@ -28,7 +28,7 @@ echo To activate the environment in the future, run:
 echo   venv\Scripts\activate.bat
 echo.
 echo To run the hand detection script:
-echo   python detection\hand_detection.py
+echo   python main.py
 echo.
 echo To run Jupyter notebook:
 echo   jupyter notebook

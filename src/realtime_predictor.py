@@ -65,7 +65,7 @@ class RealtimeASLPredictor:
             print("✅ Model loaded successfully!")
         except FileNotFoundError:
             print("❌ Model not found. Train the model first!")
-            print("Run: python detection/simple_model.py")
+            print("Run: python scripts/train_model.py")
             return False
         return True
     
