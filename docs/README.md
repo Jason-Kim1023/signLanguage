@@ -232,4 +232,4 @@ This project aims to:
 
 ---
 
-**Made with ❤️ for accessibility and inclusion**
+**Made with ❤️ for accessibility and inclusion, Jesus Loves You!**
