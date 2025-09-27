@@ -1,12 +1,12 @@
 # Sign Language Detection Project
 
-A real-time sign language recognition tool using hand tracking and machine learning. This project combines OpenCV for real-time hand detection, MediaPipe for hand landmark extraction, and TensorFlow/Keras for neural network training and prediction.
+A real-time sign language recognition tool using hand tracking and machine learning. This project combines OpenCV for real-time hand detection, MediaPipe for hand landmark extraction, and scikit-learn for neural network training and prediction.
 
 ## Features
 
 - **Real-time Hand Tracking**: Uses MediaPipe to detect and track hand landmarks
 - **Data Collection**: Interactive tool for collecting ASL letter samples
-- **Machine Learning**: Neural network training with TensorFlow/Keras
+- **Machine Learning**: Neural network training with scikit-learn
 - **Jupyter Notebook**: Interactive development and model training
 
 ## Quick Setup
@@ -92,7 +92,7 @@ signLanguage/
 
 - **OpenCV**: Computer vision and image processing
 - **MediaPipe**: Hand detection and landmark extraction
-- **TensorFlow**: Machine learning framework
+- **scikit-learn**: Machine learning framework
 - **NumPy**: Numerical computing
 - **scikit-learn**: Machine learning utilities
 - **Jupyter**: Interactive development environment
